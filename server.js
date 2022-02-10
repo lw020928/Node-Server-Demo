@@ -29,7 +29,7 @@ var server = http.createServer(function (request, response) {
             <head lang="zh-Hans">
                 <link rel="stylesheet" href="/x">
             </head>
-            <h2>Taylor Swift</h2>
+            <h2>I love Taylor Swift</h2>
         `)
         response.end()
     } else if (path === '/x') {
