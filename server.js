@@ -26,7 +26,7 @@ var server = http.createServer(function (request, response) {
         response.setHeader('Content-Type', 'text/html;charset=utf-8')
         response.write(`
             <!DOCTYPE html>
-            <head>
+            <head lang="zh-Hans">
                 <link rel="stylesheet" href="/x">
             </head>
             <h2>Taylor Swift</h2>
